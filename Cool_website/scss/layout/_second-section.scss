@@ -1,0 +1,79 @@
+.first__section{
+  height: 531px;
+  width: 100vw;
+  background-color: white;
+}
+
+.row__1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.first__section__title{
+  font-family: var(--Raleway-font);
+  font-size: 36px;
+  color: black;
+  text-align: center;
+
+}
+.row__2{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+.first__section__content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.statistics__pic{
+  content: "";
+  height: 63px;
+  width: 63px;
+  background-color: #FB3B64;
+  border-radius: 32px;
+
+}
+.pic__2{
+  background-color: #08A6E4;
+}
+.pic__3{
+  background-color: #55DFB4;
+}
+.statistics__pic::after{
+  content: url("../images/Person.png");
+  height: 63px;
+  width: 63px;
+  margin-left: 32px;
+}
+.pic__2::after{
+  content: url("../images/Eye.png");
+  display: flex;
+  align-items: center;
+}
+.pic__3::after{
+  content: url("../images/Catalog.png");
+  display: flex;
+  align-items: center;
+}
+.statistics__number{
+  margin-top: 14px;
+  font-family: var(--Raleway-font);
+  font-size: 20px;
+  color: black;
+  font-weight: 800;
+  text-align: center;
+}
+.statistics__infos{
+  margin-top: 19px;
+  font-family: var(--Raleway-font);
+  font-size: 17px;
+  color: gray;
+  font-weight: 400;
+  text-align: center;
+  padding: 10px;
+  width: 150px;
+
+}

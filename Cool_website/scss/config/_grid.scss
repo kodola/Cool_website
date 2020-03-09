@@ -1,0 +1,28 @@
+@mixin grid($cols) {
+  //@include tablet {
+    display: flex;
+    //flex-wrap: wrap;
+    @for $i from 1 through $cols {
+      .col-#{$i} {
+        flex: 0 0 (100% / $cols) * $i;
+      }
+    }
+  //}
+}
+
+.container__normal {
+  max-width: $container__normal__width;
+  width: 100%;
+  margin: 0px auto;
+  height: 531px;
+  //padding: 0 $spacing-main;
+  .row {
+   // margin-left: -$spacing-main;
+   // margin-right: -$spacing-main;
+    [class*="col-"] {
+     // padding: 0 $spacing-main;
+    }
+
+    @include grid(12);
+  }
+}
