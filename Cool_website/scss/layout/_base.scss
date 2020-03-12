@@ -1,4 +1,7 @@
 .container__large{
-  max-width: 100%;
+  max-width: 100vw;
   margin: 0 auto;
+}
+.container__normal{
+  max-width: 900px;
 }
