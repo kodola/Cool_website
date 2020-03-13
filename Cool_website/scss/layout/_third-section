@@ -1,0 +1,76 @@
+.third__section{
+  height: 1395px;
+  width: 100%;
+  background-color: #F7F7F7;
+  padding: 105px 0;
+}
+.container__normal{
+  background-color: #FFFFFF;
+}
+.thr__row__1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.third__img__1{
+  height: $container__normal__height;
+  position: relative;
+  &:after{
+    content: url("../images/Macbook2.png");
+    height: 219px;
+    width: 387px;
+    position: absolute;
+    margin-top: 113px;
+  }
+  &:before {
+    content: "";
+    height: 180px;
+    width: 180px;
+    background-color: #FB3B64;
+    border-radius: 40px;
+    transform: rotate(45deg);
+    margin-right: 71px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 220px;
+  }
+}
+.third__section__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  max-width: 416px;
+  margin-left: 35px;
+  &:after{
+    content: "";
+    height: 4px;
+    width: 340px;
+    background-color: #FB3B64;
+  }
+}
+
+.third__section__title{
+  font-family: var(--Raleway-font);
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+.third__section__text{
+  font-family: var(--OpenSans-font);
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 50px;
+}
+
+.thr__row__2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 37px;
+}
+.thr__row__3{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 37px;
+}

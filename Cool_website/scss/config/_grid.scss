@@ -10,11 +10,10 @@
   //}
 }
 
-.container__normal {
-  max-width: $container__normal__width;
+.container__thin {
   width: 100%;
   margin: 0px auto;
-  height: 531px;
+  height: $second__section__height;
   //padding: 0 $spacing-main;
   .row {
    // margin-left: -$spacing-main;
@@ -22,7 +21,20 @@
     [class*="col-"] {
      // padding: 0 $spacing-main;
     }
-
+    @include grid(12);
+  }
+}
+.container__normal {
+  margin: 0px auto;
+  height: $container__normal__height;
+  //padding: 0 $spacing-main;
+  .row {
+    height: $container__normal__height;
+    // margin-left: -$spacing-main;
+    // margin-right: -$spacing-main;
+    [class*="col-"] {
+      // padding: 0 $spacing-main;
+    }
     @include grid(12);
   }
 }

@@ -1,27 +1,29 @@
-.first__section{
-  height: 531px;
+.second__section{
+  height: $second__section__height;
   width: 100vw;
   background-color: white;
+  border: 0.5px solid #00000029;
 }
-
-.row__1{
+.sec__row__1{
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 50px;
+  margin-top: 50px;
 }
-.first__section__title{
+.second__section__title{
   font-family: var(--Raleway-font);
   font-size: 36px;
   color: black;
   text-align: center;
 }
-.row__2{
+.sec__row__2{
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
+  margin-top: 50px;
 }
-.first__section__content{
+.second__section__content{
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -33,7 +35,6 @@
   width: 63px;
   background-color: #FB3B64;
   border-radius: 32px;
-
 }
 .pic__2{
   background-color: #08A6E4;
