@@ -49,7 +49,6 @@
     background-color: #FB3B64;
   }
 }
-
 .third__section__title{
   font-family: var(--Raleway-font);
   font-size: 36px;
@@ -61,16 +60,63 @@
   line-height: 22px;
   margin-bottom: 50px;
 }
-
 .thr__row__2{
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 37px;
 }
+.third__img__2{
+  height: $container__normal__height;
+  position: relative;
+  &:after{
+    content: url("../images/iPhone2.png");
+    height: 426px;
+    width: 328px;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 70px;
+  }
+  &:before {
+    content: "";
+    height: 320px;
+    width: 320px;
+    background-color: #07ACE6;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 70px;
+  }
+}
 .thr__row__3{
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 37px;
+}
+.third__img__3{
+  height: $container__normal__height;
+  position: relative;
+  overflow: hidden;
+  &:after{
+    content: url("../images/Trumpet.png");
+    height: 207px;
+    width: 295px;
+    position: absolute;
+    margin-top: 98px;
+    margin-left: 62px;
+  }
+  &:before {
+    content: "";
+    height: 370px;
+    width: 100%;
+    background-color: #55DFB4;
+    position: absolute;
+    border-radius: 10px;
+  }
+}
+.bord{
+  height: $container__normal__height;
+  width: 100%;
+  background-color: #F7F7F7;
 }
