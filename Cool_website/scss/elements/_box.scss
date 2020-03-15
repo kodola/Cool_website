@@ -1,0 +1,7 @@
+@mixin box-content{
+  background-color: #FFFFFF;
+  border: 1px solid #00000029;
+  border-radius: 10px;
+  overflow: hidden;
+  max-height: $container__normal__height;
+}

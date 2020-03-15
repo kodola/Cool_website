@@ -2,10 +2,21 @@
   height: 1395px;
   width: 100%;
   background-color: #F7F7F7;
-  padding: 105px 0;
+  padding: 86.5px 0;
 }
-.container__normal{
+.box{
   background-color: #FFFFFF;
+  border: 1px solid #00000029;
+  border-radius: 10px;
+  overflow: hidden;
+  max-height: $container__normal__height;
+  width: $container__normal__width;
+  &.box__1{
+    width: 623px;
+  }
+  &.box__2{
+    width: 440px;
+  }
 }
 .thr__row__1{
   display: flex;
@@ -35,18 +46,25 @@
     margin-left: 220px;
   }
 }
-.third__section__content{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
-  max-width: 416px;
-  margin-left: 35px;
+.third__section__content__1{
+  @include third-section-content;
   &:after{
-    content: "";
-    height: 4px;
-    width: 340px;
+    @include line-content;
     background-color: #FB3B64;
+  }
+}
+.third__section__content__2{
+  @include third-section-content;
+  &:after{
+    @include line-content;
+    background-color: #08A6E4;
+  }
+}
+.third__section__content__3{
+  @include third-section-content;
+  &:after{
+    @include line-content;
+    background-color: #55DFB4;
   }
 }
 .third__section__title{
@@ -60,11 +78,13 @@
   line-height: 22px;
   margin-bottom: 50px;
 }
+.title__width{
+  width: 246px;
+}
 .thr__row__2{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 37px;
 }
 .third__img__2{
   height: $container__normal__height;
@@ -92,12 +112,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 37px;
+  //background-color: #F7F7F7;
 }
 .third__img__3{
   height: $container__normal__height;
   position: relative;
-  overflow: hidden;
+  width: 100%;
   &:after{
     content: url("../images/Trumpet.png");
     height: 207px;
@@ -112,7 +132,6 @@
     width: 100%;
     background-color: #55DFB4;
     position: absolute;
-    border-radius: 10px;
   }
 }
 .bord{

@@ -1,0 +1,13 @@
+@mixin third-section-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  max-width: 416px;
+  margin-left: 35px;
+}
+@mixin line-content{
+  content: "";
+  height: 4px;
+  width: 340px;
+}

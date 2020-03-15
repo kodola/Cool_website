@@ -26,14 +26,14 @@
 }
 .container__normal {
   margin: 0px auto;
-  height: $container__normal__height;
-  //padding: 0 $spacing-main;
+  padding: 18.5px 0;
   .row {
     height: $container__normal__height;
-    // margin-left: -$spacing-main;
-    // margin-right: -$spacing-main;
     [class*="col-"] {
       // padding: 0 $spacing-main;
+      height: $container__normal__height;
+      display: flex;
+      align-items: center;
     }
     @include grid(20);
   }
