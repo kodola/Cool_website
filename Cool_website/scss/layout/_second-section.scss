@@ -12,9 +12,7 @@
   margin-top: 50px;
 }
 .second__section__title{
-  font-family: var(--Raleway-font);
-  font-size: 36px;
-  color: black;
+  @include section-title;
   text-align: center;
 }
 .sec__row__2{

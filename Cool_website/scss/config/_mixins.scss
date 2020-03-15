@@ -11,3 +11,8 @@
   height: 4px;
   width: 340px;
 }
+@mixin section-title{
+  font-family: var(--Raleway-font);
+  font-size: 36px;
+  color: black;
+}

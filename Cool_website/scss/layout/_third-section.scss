@@ -11,10 +11,10 @@
   overflow: hidden;
   max-height: $container__normal__height;
   width: $container__normal__width;
-  &.box__1{
+  &.box__3-1{
     width: 623px;
   }
-  &.box__2{
+  &.box__3-2{
     width: 440px;
   }
 }
@@ -68,8 +68,7 @@
   }
 }
 .third__section__title{
-  font-family: var(--Raleway-font);
-  font-size: 36px;
+  @include section-title;
   margin-bottom: 30px;
 }
 .third__section__text{

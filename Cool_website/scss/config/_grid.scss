@@ -38,3 +38,15 @@
     @include grid(20);
   }
 }
+.container__big{
+  margin: 0px auto;
+  height: $container__big__height;
+  .row {
+    [class*="col-"] {
+      // padding: 0 $spacing-main;
+      display: flex;
+      align-items: center;
+    }
+    @include grid(12);
+  }
+}
