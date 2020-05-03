@@ -40,11 +40,14 @@
 }
 .container__big{
   margin: 0px auto;
+  width: 100%;
   height: $container__big__height;
   .row {
+    width: $container__big__width;
     [class*="col-"] {
       // padding: 0 $spacing-main;
       display: flex;
+      justify-content: center;
       align-items: center;
     }
     @include grid(12);
