@@ -9,17 +9,12 @@
     }
   //}
 }
-
 .container__thin {
   width: 100%;
   margin: 0px auto;
   height: $second__section__height;
-  //padding: 0 $spacing-main;
   .row {
-   // margin-left: -$spacing-main;
-   // margin-right: -$spacing-main;
     [class*="col-"] {
-     // padding: 0 $spacing-main;
     }
     @include grid(12);
   }
@@ -30,7 +25,6 @@
   .row {
     height: $container__normal__height;
     [class*="col-"] {
-      // padding: 0 $spacing-main;
       height: $container__normal__height;
       display: flex;
       align-items: center;
@@ -45,7 +39,6 @@
   .row {
     width: $container__big__width;
     [class*="col-"] {
-      // padding: 0 $spacing-main;
       display: flex;
       justify-content: center;
       align-items: center;
