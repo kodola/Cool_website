@@ -23,9 +23,14 @@
   line-height: 15px;
 }
 .nav__link{
-  padding: 20px;
+  padding: 30px;
   font-family: var(--OpenSans-font);
   font-size: 11px;
   color: gray;
   text-align: center;
+  letter-spacing: 1px;
+}
+.distinction__link{
+  color: #000000;
+  font-weight: 700;
 }
