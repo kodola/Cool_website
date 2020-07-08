@@ -9,12 +9,11 @@
   font-family: var(--Raleway-font);
   font-size: 32px;
   color: #08A6E4;
-  margin: 0 7%;
+  margin: 0 2%;
 }
 .nav__menu{
   display: flex;
   justify-content: flex-end;
-  margin: 0 7%;
 }
 .nav__item{
   display: flex;
@@ -23,7 +22,7 @@
   line-height: 15px;
 }
 .nav__link{
-  padding: 30px;
+  padding: 3vw;
   font-family: var(--OpenSans-font);
   font-size: 11px;
   color: gray;

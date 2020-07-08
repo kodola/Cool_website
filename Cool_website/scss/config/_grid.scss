@@ -37,7 +37,7 @@
   width: 100%;
   height: $container__big__height;
   .row {
-    width: $container__big__width;
+    width: 100%;
     [class*="col-"] {
       display: flex;
       justify-content: center;

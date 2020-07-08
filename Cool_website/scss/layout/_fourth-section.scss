@@ -3,15 +3,23 @@
   width: 100%;
   background-color: #FFFFFF;
   padding: 120px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .fourth__row__1 {
-  width: $container__big__width;
   height: 42px;
   margin-bottom: 50px;
 }
 .fourth__section__title {
   @include section-title;
   text-align: center;
+}
+.fourth__row__2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
 }
 .box__both{
   border-radius: 18px;
@@ -21,11 +29,14 @@
   align-items: center;
 }
 .box__4-1{
-  width: 372px;
+  max-width: 372px;
+  width: 36vw;
   height: 461px;
+  margin: 0 20px;
 }
 .box__4-2{
-  width: 405px;
+  max-width: 405px;
+  width: 32vw;
   height: 500px;
   box-shadow: 5px 10px 27px #07ACE629;
 }
