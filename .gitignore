@@ -2,7 +2,7 @@
 # Logs
 logs
 *.log
-package-lock.json
+Cool_website/package-lock.json
 node_modules/
 .sass-cache/
 
