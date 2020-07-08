@@ -67,6 +67,9 @@
 .properties{
   margin-top: 55px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .property{
   font-family: var(--OpenSans-font);
@@ -74,14 +77,42 @@
   font-size: 16px;
   font-weight: 400;
   padding: 12px 0;
+  display: flex;
+  align-items: center;
 }
+.selected{
+  content: url("../images/Checkmark.png");
+  height: 10px;
+  width: 10px;
+  padding: 1.5px;
+  border: 1.2px solid #55DFB4;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+.rejected{
+  content: '';
+  height: 10px;
+  width: 10px;
+  border: 1.2px solid #EB476E;
+  border-radius: 2px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.x{
+  color: #EB476E;
+  font-size: 8.5px;
+  margin-top: -1px;
+}
+
 .btn{
   font-family: var(--OpenSans-font);
   color: #FFFFFF;
   font-size: 13px;
   font-weight: 600;
   border-radius: 23px;
-  border: 0px;
+  border: 0;
   padding: 16px 0;
 }
 .btn__side{

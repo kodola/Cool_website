@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2c88829-9b22-4b64-bab6-46169d582353" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Cool_website/images/Checkmark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cool_website/images/Checkmark@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cool_website/images/Facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cool_website/images/Facebook@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cool_website/images/Mail Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cool_website/images/Mail Icon@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cool_website/images/Phone Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cool_website/images/Phone Icon@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cool_website/images/Twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cool_website/images/Twitter@2x.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cool_website/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Cool_website/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cool_website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cool_website/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cool_website/scss/layout/_fourth-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Cool_website/scss/layout/_fourth-section.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,12 +26,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Ykl19rsGIaAE2FPzBizPgsRREh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -50,11 +67,17 @@
       <workItem from="1588886155847" duration="1262000" />
       <workItem from="1588973232195" duration="1887000" />
       <workItem from="1589021628148" duration="628000" />
+      <workItem from="1589145602779" duration="486000" />
+      <workItem from="1589146097840" duration="6000" />
+      <workItem from="1594201687451" duration="6032000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="429" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588973307863">
