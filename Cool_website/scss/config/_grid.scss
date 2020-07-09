@@ -19,6 +19,16 @@
     @include grid(12);
   }
 }
+.container__last {
+  width: 100%;
+  margin: 0px auto;
+  height: $last__section__height;
+  .row {
+    [class*="col-"] {
+    }
+    @include grid(12);
+  }
+}
 .container__normal {
   margin: 0px auto;
   padding: 18.5px 0;

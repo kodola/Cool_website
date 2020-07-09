@@ -1,0 +1,88 @@
+.fifth__section{
+  height: $last__section__height;
+  width: 100%;
+  background-color: #FFFFFF;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.fifth__section__title{
+  font-family: var(--Raleway-font);
+  font-size: 49px;
+  color: black;
+  margin-bottom: 22px;
+}
+.fifth__section__paragraph{
+  font-family: var(--OpenSans-font);
+  font-size: 16px;
+  color: black;
+  margin-bottom: 42px;
+}
+.fifth__section__contacts{
+  font-family: var(--OpenSans-font);
+  font-size: 16px;
+  color: #A5A5A5;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.contact_icon_1{
+  content: url("../images/Mail Icon.png");
+  height: 27px;
+  width: 27px;
+  margin: 0 10px 0 0;
+}
+.contact_icon_2{
+  content: url("../images/Phone Icon.png");
+  height: 27px;
+  width: 27px;
+  margin: 0 8px 0 15px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+}
+.form_text{
+  font-family: var(--OpenSans-font);
+  font-size: 11px;
+  color: #08A6E4;
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+#text_1{
+  width: 440px;
+  border: 0;
+  border-bottom: 2px solid #95989A;
+  margin-bottom: 40px;
+}
+#text_2{
+  width: 440px;
+  border: 0;
+  border-bottom: 2px solid #95989A;
+  margin-bottom: 30px;
+}
+.checked_icon{
+  content: url("../images/Checkmark.png");
+  height: 24px;
+  width: 24px;
+  padding: 5px;
+  border: 1px solid #95989A;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.personal_info{
+  font-family: var(--OpenSans-font);
+  font-size: 12px;
+  color: #707070;
+  display: flex;
+  line-height: 17px;
+  margin-bottom: 20px;
+}
+.btn__end{
+  background-color: #08A6E4;
+  width: 226px;
+  height: 57px;
+  border-radius: 35px;
+  float: right;
+}
