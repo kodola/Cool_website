@@ -16,3 +16,8 @@
   font-size: 36px;
   color: #000000;
 }
+@mixin desktop {
+  @media screen and (min-width: #{$desktop}){
+    @content;
+  }
+}
