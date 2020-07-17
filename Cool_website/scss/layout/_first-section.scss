@@ -24,17 +24,19 @@
 .btn__first{
   box-shadow: 5px 10px 14px 0 #07ACE629;
 }
-.banner__link {
+.btn__banner {
   border-radius: 50px;
   padding: 22px 157px;
   background-color: #08A6E4;
   font-family: var(--OpenSans-font);
   color: white;
-  font-size: 16px
+  font-size: 16px;
+  font-weight: 700;
+  border: 0;
 }
-.banner__link:hover {
+.btn__banner:hover {
   background: #3abbed;
 }
-.banner__link:active {
+.btn__banner:active {
   box-shadow: inset 0 1px 3px rgba(0,0,0,0.3);
 }
